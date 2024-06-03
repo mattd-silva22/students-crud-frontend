@@ -42,7 +42,7 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
     axios
       .request({
         method: "GET",
-        url: "http://localhost:3000/students",
+        url: `${process.env.NEXT_PUBLIC_API_URL}/students`,
       })
       .then((response) => {
         const res = response.data;
@@ -75,7 +75,7 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
     axios
       .request({
         method: "POST",
-        url: "http://localhost:3000/students",
+        url: `${process.env.NEXT_PUBLIC_API_URL}/students`,
         data: {
           cpf: student.cpf,
           name: student.name,
@@ -122,7 +122,7 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
     axios
       .request({
         method: "PUT",
-        url: `http://localhost:3000/students/`,
+        url: `${process.env.NEXT_PUBLIC_API_URL}/students`,
         data: {
           id: data.id,
           name: data.name,
@@ -155,7 +155,7 @@ export const AppContextProvider = ({ children }: AppContextProviderProps) => {
     return axios
       .request({
         method: "DELETE",
-        url: `http://localhost:3000/students/${id}`,
+        url: `${process.env.NEXT_PUBLIC_API_URL}/students/${id}`,
       })
       .then((response) => {
         console.log(response.data);

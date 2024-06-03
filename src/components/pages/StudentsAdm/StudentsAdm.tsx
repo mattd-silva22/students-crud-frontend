@@ -16,7 +16,7 @@ export default function StudentsAdm() {
             <p>Adicone, delete ou atualize o cadastro dos alunos</p>
           </div>
 
-          {isLoading ? (
+          {isLoading || !studentsList.length ? (
             <p>Carregando...</p>
           ) : (
             <>
