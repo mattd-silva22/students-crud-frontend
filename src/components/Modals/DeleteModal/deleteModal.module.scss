@@ -1,0 +1,40 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  p {
+    font-size: small;
+  }
+}
+
+.student {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.delete-btn {
+  font-weight: bold;
+  background-color: var(--primary-red);
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #d4d4d4;
+  color: black;
+}

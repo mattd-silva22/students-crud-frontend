@@ -1,0 +1,41 @@
+.toolbar {
+  border-radius: 1rem;
+  background-color: #f1f1f1ff;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+  font-size: small;
+  width: 100%;
+}
+
+.searchBar {
+  gap: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputArea {
+  border: 1px solid rgb(161, 160, 160);
+  background-color: #f1f1f1ff;
+  padding: 0 0.25rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    padding: 0.25rem;
+    border: none;
+    background-color: #f1f1f1ff;
+  }
+}
+
+.summary {
+  gap: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

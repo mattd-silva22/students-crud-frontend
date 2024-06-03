@@ -1,0 +1,24 @@
+:root {
+  --max-width: 1920px;
+
+  --primary-green: #1be28e;
+  --primary-pink: #b191e4;
+  --primary-red: #ff3d71;
+  --primary-blue: #5429cc;
+  --primary-yellow: #f9d017;
+  --primary-white: #fff;
+
+  --primary-text: #363f5f;
+  --secondary-text: #969cb2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text);
+  background-color: var(--primary-green);
+  padding: 1rem 1.5rem;
+  box-shadow: 0px 10px 300px 0px rgba(0, 0, 0, 0.08);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: var(--max-width);
+  width: 90%;
+}
+
+.logo {
+  color: #000;
+  font-size: x-large;
+}
+
+.add_btn {
+  background-color: var(--primary-yellow);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
